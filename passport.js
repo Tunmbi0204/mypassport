@@ -20,11 +20,11 @@ function email(){
     let phone = document.getElementById('number').value;
     if(phone.startsWith('070') || phone.startsWith('080')  || phone.startsWith('081') || phone.startsWith('090'))
          if(phone.length == 11){
-            valid = "valid"} 
+            valid = "Valid Number"} 
             else{
-     valid = "Number Not Valid"}  
+     valid = "Number is Invalid"}  
      else{
-    valid = "Number Not Valid"}
+    valid = "Number is Invalid"}
 
 document.getElementById('result').innerHTML = valid;
 }
